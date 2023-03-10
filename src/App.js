@@ -134,7 +134,7 @@ const App = () => {
       <div className='w-full max-w-[450px] bg-black/20 min-h-[584px] text-white backdrop-blur-[32px] rounded-[32px] py-12 px-6'>
         {loading ? (
           <div className='w-full h-full flex justify-center items-center'>
-            <ImSpinner8 className='text-white text-5x1 animate-spin' />
+            <ImSpinner8 className='text-white text-5xl animate-spin' />
           </div>
         ) : (
           <div>
